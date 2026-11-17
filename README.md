@@ -15,6 +15,8 @@
 
 **True Hero Prototype** is a zero-build, single-file 3D ink-wash Wuxia action prototype built on WebGL2 and Three.js. Every character mesh, 19-bone skeletal rig, Verlet cloth simulation, courtyard prop, dry-brush (*feibai*) blade trail, and Xuan-paper ink-outline post-process pass is procedurally generated at runtime with zero external 3D assets.
 
+- **配套设定集 | Visual Bible**：[《真大侠 · 视觉设定与制作工作流 v0.1》（PDF，11 页）](./docs/true-hero-visual-bible-v0.1.pdf)
+
 ---
 
 ## 快速体验 | Quick Start
@@ -81,6 +83,15 @@ npx serve .
    - 独立 Verlet 约束布料解算器驱动四片下摆、朱砂抹额飘带、腰带与腰间玉佩链，并与腿部/胯部球体碰撞体实时交互。
 4. **书法笔意战斗特效**
    - 剑轨网格模拟毛笔「起笔重、收笔细、笔尾与刃根丝状飞白」；配合 `InstancedMesh` 墨滴飞溅、落地晕染墨迹（Decal）与轻功蒙皮残影池。
+
+---
+
+## 视觉设定与制作工作流 | Visual Bible
+
+- **[《真大侠 · 视觉设定与制作工作流 v0.1》（PDF，11 页）](./docs/true-hero-visual-bible-v0.1.pdf)**  
+  收录项目的整体水墨视觉规则（浓墨、宣纸留白、朱砂点睛与飞白笔意）、角色与敌群剪影设定板、庭院建筑模块、剑盾动作与衣物笔触拆解，以及阶段化制作工作流与评审清单。
+- **[True Hero · Visual Direction & Production Workflow Bible v0.1 (PDF, 11 pages)](./docs/true-hero-visual-bible-v0.1.pdf)**  
+  Documents the ink-wash visual language, character & enemy concept boards, modular courtyard kit, sword-and-shield motion & dry-brush stroke sheets, and the staged production workflow & review checklist.
 
 ---
 
